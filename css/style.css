@@ -18,6 +18,9 @@
     border: 2px dashed red;
     min-height: 50px;
  }
+ .box-content{
+    line-height: 80px;
+ }
 
 
  /* 
@@ -28,15 +31,15 @@
  .container{
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%;
     padding:0 1rem ;
  }
  .row{
-
+    margin-left: -1rem;
+    margin-right: -1rem;
  }
 
  .col{
-
+    padding: 1rem;
  }
 
  
@@ -58,12 +61,15 @@
         padding:0 1rem ;
 }
 /* INTRO */
-#intro .col{
-   background-color: brown;
-   margin: 1rem 0;
-   padding:
+  
+
+#intro .card{
+    background-color: brown;
+    padding: 1rem;
+    width: 100%;
 
 }
+
 
  /* 
 # ***********************
@@ -74,8 +80,29 @@
 /* TABLET */
  @media screen and (min-width: 768px) {
     /* INTRO */
+    .container{
+        max-width: 600px;
+    }
     #intro .row{
        display: flex;
-
+       flex-wrap: wrap;
      }
+    
+     #intro .col{
+        display: flex;
+        width: calc(100% / 3);
+     }
+     #intro .col:first-child{
+        display: flex;
+        width: calc(100% / 3 * 2);
+     }
+
+ }
+
+
+/* DESKTOP */
+ @media screen and (min-width: 1000px){
+    .container{
+        max-width: 1140px;
+    }
  }
