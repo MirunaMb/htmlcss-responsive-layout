@@ -53,7 +53,7 @@
  #header{
      background-color: #0084fd;
      height: 80px;
-     line-height: 80px;
+     line-height: 60px;
     }
     #header > .container{
         display: flex;
@@ -93,8 +93,11 @@
         width: calc(100% / 3);
      }
      #intro .col:first-child{
-        display: flex;
+         display: flex;
         width: calc(100% / 3 * 2);
+     }
+     #intro .card > .card-section{
+      width: 50%;
      }
 
  }
