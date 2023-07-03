@@ -8,6 +8,9 @@
     margin: 0;
     padding: 0;
  }
+ img{
+   width: 100%;
+ }
 
   /* 
 # ***********************
@@ -19,7 +22,7 @@
     min-height: 50px;
  }
  .box-content{
-    line-height: 80px;
+    line-height: 60px;
  }
 
 
@@ -49,6 +52,9 @@
 # ***********************
  */
 
+ section{
+   padding: 3rem 0;
+ }
  /* HEADER */
  #header{
      background-color: #0084fd;
@@ -68,6 +74,34 @@
     padding: 1rem;
     width: 100%;
 
+}
+/* PLANNING PLAN */
+
+#planning{
+   background-color:#9792e4;
+}
+#planning .card{
+   padding: 1rem 0;
+}
+#planning .title{
+   margin: 1rem 0;
+   color: white;
+}
+
+/* TESTIMONIAL */
+#testimonial .head-testimonial{
+   margin: 10px 0;
+   text-align: center;
+}
+#testimonial .head-testimonial > h3 {
+   color: #9792e4;
+}
+#testimonial .partners{
+   width: 100%;
+   margin: 30px 0;
+   padding: 10px 10px;
+   background-color: #9792e4;
+   border-radius: 20px;
 }
 
 
@@ -93,12 +127,41 @@
         width: calc(100% / 3);
      }
      #intro .col:first-child{
-         display: flex;
         width: calc(100% / 3 * 2);
+     }
+     #intro .col:first-child .card{
+      display: flex;
      }
      #intro .card > .card-section{
       width: 50%;
      }
+     /* PLANNING SECTION */
+     #planning .card-a,
+     #planning .card-b{
+      margin: 0 auto ;
+      width: 70%;
+     }
+    
+    /* TESTIMONIAL */
+    #testimonial .head-testimonial {
+      font-size: 1.2rem;
+  }
+
+  #testimonial .head-testimonial h3{
+      font-size: 1.6rem;
+  }
+
+  #testimonial .partners {
+      
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 40px;
+  }
+
+  #testimonial .testimon {
+      width: 74%;
+  }
 
  }
 
@@ -108,4 +171,16 @@
     .container{
         max-width: 1140px;
     }
+    /* PLANNING SECTION */
+    #planning .row{
+      display: flex;
+      
+     }
+     /* */
  }
+ 
+ 
+ 
+ 
+ 
+
