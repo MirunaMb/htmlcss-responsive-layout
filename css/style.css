@@ -103,7 +103,7 @@
    background-color: #9792e4;
    border-radius: 20px;
 }
-/* BENEFIT */
+/* #BENEFIT */
 #benefit{
    background-color: #9792e4;
    padding: 30px 0;
@@ -140,6 +140,52 @@
    border-radius: 20px;
    text-decoration: none;
    
+}
+/* ABOUT */
+#about h2{
+   color: #9792e4;
+   margin: 25px 0;
+}
+#about p{
+   line-height: 40px;
+   margin: 30px 0;
+}
+#about .col:first-child{
+   width: 100%;
+   margin-bottom: 20px;
+   background-color: white;
+   border-radius: 20px;
+   padding: 10px 20px;
+}
+#about .col:last-child{
+   width: 100%;
+}
+#about .card .white-boy {
+   position: relative;
+}
+#about .card .white-boy i {
+   font-size: 3rem;
+   color:#9792e4;
+   position: absolute;
+   left: 109px;
+   top: 0px;
+}
+#about .card .white-boy img{
+   border-radius: 50%;
+   width: 150px;
+}
+#about .col a {
+   background-color:#9792e4;
+   border-radius: 20px;
+   padding: 10px 20px;
+   text-decoration: none;
+   color: white;
+}
+#about .fa-linkedin{
+   color: white;
+}
+#help{
+   line-height: 35px;
 }
 
 
@@ -201,6 +247,17 @@
   #testimonial .testimon {
       width: 74%;
   }
+/* ABOUT */
+#about .col:first-child{
+   width: 60%;
+}
+#about .col:last-child{
+   width: 40%;
+}
+#about .row{
+   display: flex;
+}
+
 
  }
 
